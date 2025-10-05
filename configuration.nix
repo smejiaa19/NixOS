@@ -119,7 +119,6 @@
   python312Full
   git
   wget
-  discord
   ];
 
   # Some programs need SUID wrappers, can be configured further or are

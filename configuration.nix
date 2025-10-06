@@ -16,8 +16,8 @@
   boot.loader.grub.useOSProber = true;
   boot.loader.grub.devices = [ "nodev" ];
 
-  # Use latest kernel.
-  boot.kernelPackages = pkgs.linuxPackages_latest;
+  # Use kernel 6.5 para compatibilidad Nvidia.
+  boot.kernelPackages = pkgs.linuxPackages_6_16;
 
   networking.hostName = "nixos"; # Define your hostname.
   #networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
@@ -119,6 +119,7 @@
   python312Full
   git
   wget
+  discord
   ];
 
   # Some programs need SUID wrappers, can be configured further or are

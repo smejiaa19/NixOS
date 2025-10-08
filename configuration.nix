@@ -130,6 +130,7 @@
   git
   wget
   discord
+  pgadmin4-desktopmode
   ];
 
   # Some programs need SUID wrappers, can be configured further or are

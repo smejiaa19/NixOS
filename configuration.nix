@@ -6,6 +6,16 @@
       ./hardware-configuration.nix
     ];
 
+    # Agregando PostgreSQL
+    services.postgresql = {
+	enable = true;
+	ensureDatabases = [ "MyDataBase" ];
+	authentication = pkgs.lib.mkOverride 10 ''
+	#type Database DBuser auth-method
+	local all      all    trust
+	'';
+    };
+
   # Bootloader.
   #boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;

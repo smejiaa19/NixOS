@@ -5,6 +5,12 @@
     [ 
       ./hardware-configuration.nix
     ];
+	
+    programs.hyprland = {
+	enable = true;
+    };
+
+
 
     # Agregando PostgreSQL
     services.postgresql = {
@@ -131,6 +137,10 @@
   wget
   discord
   pgadmin4-desktopmode
+  hyprland
+  waybar
+  wofi
+  nwg-look
   ];
 
   # Some programs need SUID wrappers, can be configured further or are

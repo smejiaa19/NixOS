@@ -148,6 +148,7 @@
   kitty
   hyprpaper 
   hyprpicker
+  swww
   xdg-desktop-portal-hyprland
   xdg-desktop-portal-gtk
   ];

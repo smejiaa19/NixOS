@@ -16,13 +16,6 @@
 	NIXOS_OZONE_WL = "1";
     };
 
-    hardware.graphics = {
-	enable = true;
-
-	nvidia.modesetting.enable = true;
-    };
-
-
     # Agregando PostgreSQL
     services.postgresql = {
 	enable = true;

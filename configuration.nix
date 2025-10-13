@@ -146,6 +146,8 @@
   wofi
   nwg-look
   kitty
+  hyprpaper 
+  hyprpicker
   ];
 
   # Some programs need SUID wrappers, can be configured further or are

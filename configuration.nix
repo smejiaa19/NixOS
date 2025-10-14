@@ -145,8 +145,6 @@
   waybar
   wofi
   nwg-look
-  kitty
-  hyprpaper 
   hyprpicker
   swww
   xdg-desktop-portal-hyprland

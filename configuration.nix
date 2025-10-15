@@ -149,6 +149,7 @@
   swww
   xdg-desktop-portal-hyprland
   xdg-desktop-portal-gtk
+  brightnessctl
   ];
 
   xdg.portal = {

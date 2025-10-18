@@ -92,24 +92,6 @@
 	};
   };
 
-  home.pointerCursor = {
-	package = pkgs.gnome.adwaita-icon-theme;
-	name = "Adwaita";
-	size = 24;
-  };
-
-  xsession.pointerCursor = {
-	package = pkgs.gnome.adwaita-icon-theme;
-	name = "Adwaita";
-	size = 24;
-  };
-
-  home.sessionVariables = {
-	XCURSOR_THEME = "Adwaita";
-	XCURSOR_SIZE = "24";
-  };
-
-
 
   # Let Home Manager install and manage itself.
   programs.home-manager.enable = true;

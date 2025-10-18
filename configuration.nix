@@ -12,8 +12,10 @@
     };
 
     environment.sessionVariables = {
-	#WLR_NO_HARDWARE_CURSORS = "1";
+	WLR_NO_HARDWARE_CURSORS = "1";
 	NIXOS_OZONE_WL = "1";
+	XCURSOR_THEME = "Adwaita";
+	XCURSOR_SIZE = "24";
     };
 
     # Agregando PostgreSQL
@@ -151,6 +153,7 @@
   xdg-desktop-portal-gtk
   brightnessctl
   vscode
+  gnome.adwaita-icon-theme
   ];
 
   xdg.portal = {

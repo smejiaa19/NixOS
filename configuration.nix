@@ -150,6 +150,7 @@
   xdg-desktop-portal-hyprland
   xdg-desktop-portal-gtk
   brightnessctl
+  vscode
   ];
 
   xdg.portal = {

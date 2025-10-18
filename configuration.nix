@@ -153,7 +153,7 @@
   xdg-desktop-portal-gtk
   brightnessctl
   vscode
-  gnome.adwaita-icon-theme
+  adwaita-icon-theme
   ];
 
   xdg.portal = {

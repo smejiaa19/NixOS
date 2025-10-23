@@ -154,6 +154,7 @@
   brightnessctl
   vscode
   adwaita-icon-theme
+  jetbrains-toolbox
   ];
 
   xdg.portal = {

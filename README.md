@@ -4,6 +4,6 @@
 
 <h1> Al final termine usando Hyrpland</h1>
 <pre> Se miraba muy bien y todo funcionaba bien, sin embargo quise probar nuevas distros.
-      Actualmente estoy usando EndeavourOS y Arch-Linux sin embargo pienso cambiar Endeavour por Debian 12 
-      Por que Debian funciona de maravilla
+Actualmente estoy usando EndeavourOS y Arch-Linux sin embargo pienso cambiar Endeavour por Debian 12 
+Por que Debian funciona de maravilla
 </pre>
